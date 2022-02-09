@@ -1,0 +1,139 @@
+.covidlink:hover {
+    text-decoration: none;
+    color: #198754;
+}
+
+.dot {
+    height: 7px;
+    width: 7px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.logo {
+    width: 200px;
+    height: 46.77px;
+}
+
+.menu-list li:hover {
+    background-color: #0033a0;
+}
+
+.menu-list a {
+    text-decoration: none;
+    color: #000;
+}
+
+.menu-list a:hover {
+    color: #fff;
+}
+
+.dropdown-toggle::after {
+    content: none;
+}
+
+.dropdown-menu {
+    background-color: #0033a0;
+}
+
+.dropdown-menu a {
+    color: #fff;
+}
+
+.dropdown-menu a:hover {
+    color: #0033c0e0;
+}
+
+.slogan h4 {
+    font-weight: 400 !important;
+    line-height: 2;
+    color: #0033a0;
+    margin-left: 30px;
+
+    @media (min-width: 1200px) {
+        .slogan h4 {
+            font-size: 36px;
+        }
+    }
+
+    @media (min-width: 320px) {
+        .slogan h4 {
+            font-size: calc(25px + 11*(100vw - 320px)/880);
+            ;
+        }
+    }
+}
+
+.bi-1 {
+    background-image: url("/images/services-india-hp-parallax-banner.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    display: block;
+}
+
+.bi-2 {
+    background-image: url("/images/outreachbanner-desktop.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    display: block;
+}
+
+
+.rect {
+    background-color: rgba(0, 0, 0, .7);
+    display: inline-block;
+    width: 35%;
+    padding-right: 40px;
+}
+
+.form-control {
+    border: 0;
+    background-color: transparent;
+
+}
+
+.form-control:focus {
+    outline: #000088;
+    box-shadow: none;
+}
+
+li {
+    list-style: none;
+}
+
+.text {
+    text-decoration: none;
+    color: #000000;
+
+}
+
+.text:hover {
+    color: #008000;
+}
+
+@media screen and (max-width:768px) {
+    .container-fluid .carousel-inner img {
+        height: 100%;
+    }
+
+    .container-fluid .rect {
+        background-color: rgba(0, 0, 0, .7);
+        display: inline-block;
+        width: 55%;
+    }
+
+    .bi-2 {
+        background-image: url("/images/outreach-banner-mob.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        display: block;
+    }
+
+}
